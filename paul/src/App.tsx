@@ -15,34 +15,42 @@ function App() {
   const [products, setProducts] = useState<Product[]>([
     {
       id: 1,
-      title: "Strawberry Soju Cocktail",
-      imgURL: "https://www.themixer.com/en-us/wp-content/uploads/sites/2/2023/06/556.-Strawberry-Soju-Cocktail_MidjourneyAI_GPC-1024x512.jpg.webp",
-      description: "Strawberry-Soju-Cocktail",
-      price: 85,
+      title: "Sushi sashimi",
+      imgURL: "https://sushiaruonline.com/wp-content/uploads/2023/08/sushi-sashimi-platter.png",
+      description: "sushi sashimi platter",
+      price: 1550,
       quantity: 0
     },
     {
       id: 2,
-      title: "Strawberry milk",
-      imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9mK_Pds9OS_x47tfJR097vaGM3zez46hUVzieDSJ9qvv7uN1bPVKLOKi08WE5FqiGel0&usqp=CAU",
-      description: "strawberry-milk",
+      title: "Hanami dango",
+      imgURL: "https://japanbite.com/cdn/shop/articles/1_1aa79b00-0e2b-4750-a40f-7c80c45e9a73.jpg?v=1716019143",
+      description: "Dango",
       price: 165,
       quantity: 0
     },
     {
       id: 3,
-      title: "Bibimbap",
-      imgURL: "https://www.recipetineats.com/tachyon/2019/05/Bibimbap_3.jpg",
-      description: "Bibimbap",
-      price: 75,
+      title: "Tokyo tea",
+      imgURL: "https://i0.wp.com/www.inspiredfreshlife.com/wp-content/uploads/2023/03/tokyo-tea-4.jpg?fit=1200%2C1200&ssl=1",
+      description: "tokyo tea",
+      price: 70,
       quantity: 0
     },
     {
       id: 4,
-      title: "Tteokbokki",
-      imgURL: "https://assets.bonappetit.com/photos/5d38cbae9b6cf80008d71609/1:1/w_2560%2Cc_limit/0719-tteokbaki-rice-cakes-LEDE-New.jpg",
-      description: "tteokbaki rice cakes",
-      price: 165,
+      title: "Mocktail drink",
+      imgURL: "https://mymocktailforest.com/wp-content/uploads/2023/01/butterfly-pea-flower-tea-mocktail-6.jpg",
+      description: "butterfly pea flower tea mocktail",
+      price: 155,
+      quantity: 0
+    },
+    {
+      id: 5,
+      title: "Fluffy Pancakes",
+      imgURL: "https://i.redd.it/4u6x6vf5c5sa1.jpg",
+      description: "souffle pancakes",
+      price: 90,
       quantity: 0
     }
   ]);
